@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+a:hover, h1:hover {
+    color: rgba(228, 8, 8, 0.548);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: 'Nerko One',
+    cursive;
+}
+
+h2, h3 {
+    font-size: 3.5rem;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Nerko One',
+    cursive;
+}
+
+button {
+    border:none;
+    border-radius: 2rem 0rem 2rem 0rem;
+    background-color: rgba(211, 219, 180, 0.253);
+    color: rgba(54, 1, 1, 0.842);
+    padding: 2.4rem;
+    font-size: 1.8rem;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+button:hover {
+    background-color: rgba(15, 4, 4, 0.575);
+    color: rgb(243, 233, 221);
+    cursor: pointer;
+    border-radius: 0rem 2rem 0rem 2rem;
+
+}
+
+img {
+    background-color: black;
+    border: none;
+    border-radius: 1rem 0rem 1rem 0rem;
+    width: 3.5rem;
+}
+
+img:hover {
+    border-radius: 0rem 1rem 0rem 1rem;
+    cursor: pointer;
+    background-color: rgb(168, 10, 31);
+}
+
+/* Global Styles END */
+
+/* MAIN HEADS STYLES */
+.main-head {
+    background-color: rgb(22, 17, 17);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 10vh;
+    padding: 2rem 5rem;
+    flex-wrap: wrap;
+    flex: 1 1 20rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 20rem;
+}
+
+.main-header {
+    background: url(/images/glenn-carstens-peters-0woyPEJQ7jc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 20rem;
+    flex-wrap: wrap;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text p {
+    margin: 5rem;
+}
+
+/* Blog post place */
+
+.blog-post {
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background: rgb(11, 11, 11);
+    color: rgba(191, 168, 168, 0.988);
+}
+
+/* CONTACT SECTION */
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    flex: 1 1 20rem;
+    flex-wrap: wrap;
+}
